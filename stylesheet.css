@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    background-color: black;
+    
+}
+
+
+
+.container{
+    padding-top: 20px;
+    background-color: black;
+    height: 200px;
+    text-align: center;
+    letter-spacing: 5.5px;
+    line-height: 2.15px;
+    color: rgb(86, 82, 82);
+
+    
+}
+.para{
+    font-size: 14px;
+    
+}
+.heading{
+    
+    font-size: 45px;
+    flex: 1;
+    cursor: pointer;
+    
+}
+.heading:hover{
+    color: rgb(230, 65, 65);
+    
+}
+.menu{
+    height: 10px;
+    display: flex;
+    flex-direction:row;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 380px;
+    margin-right: 380px;
+    font-size: 14px;
+    
+   
+}
+.dd{
+    
+    flex: 0.6;
+    cursor: pointer;
+    color: azure;
+    letter-spacing: 2px;
+
+    
+}
+.dd:hover{
+    color: rgb(230, 65, 65);
+}
+
+.hr{
+   
+    margin-top: 20px;
+    background-color: gray;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 0.1px;
+    opacity: 0.4;
+}
+
+.container p{
+    
+    color: rgb(166, 170, 174);
+  
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.text{
+    margin: 0;
+    position:static
+}
+.data{
+   
+    height: 15px;
+    color: rgb(145, 143, 137);
+    display: flex;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Roboto", Sans-serif;
+    line-height: 30px;
+    text-align: center;
+}
+.data1{
+    height: 15px;
+    color: rgb(145, 143, 137);
+    display: flex;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Roboto", Sans-serif;
+    margin-left: 205px;
+    padding-top: 25px;
+    
+}
+.details{
+    padding-left: 205px;
+    padding-right: 200px;
+    padding-top:150px;
+    height: 100vh;
+}
+.details img{
+    margin-top: 60px;
+    margin-left: 25px;
+}
+.img-coffee{
+aspect-ratio: auto 880 / 495;
+height: 495px;
+padding-left: 80px;
+
+}
+.footerelements{
+    align-items: center;
+    padding-left: 34%;
+    padding-top: 200px;
+}
+.footerimg{
+    padding-right: 80px;
+    cursor: pointer;
+}
+.footer{
+    text-align: center;
+    font-size: 11px;
+    color: grey;
+    font-weight: 100;
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+
+}
+.footer a:hover{
+    color: rgb(230, 65, 65);
+}
